@@ -3,13 +3,13 @@ import Link from "next/link";
 
 export default function SourceSection() {
   return (
-    <section id="about" className="relative py-4 bg-white overflow-hidden pb-22">
+    <section id="about" className="relative px-20 py-4 bg-white overflow-hidden pb-22">
       {/* Decorative Star Anise in Top Left Corner */}
       <div className="absolute top-0 left-0 sm:top-0 sm:left-0 opacity-80 pointer-events-none z-index-0">
         <img src="/SourceImg.png" alt="" />
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto ">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
 
           {/* Left Column: Text & Value Proposition */}

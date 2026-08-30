@@ -40,7 +40,7 @@ function ProductCard({ title, type }: ProductCardProps) {
 
 export default function ProductsSection() {
   return (
-    <section id="products" className="relative py-16 sm:py-20 lg:py-24 bg-[#FAF8F5] spice-bg-pattern overflow-hidden"
+    <section id="products" className="relative px-20 py-16 sm:py-20 lg:py-24 bg-[#FAF8F5] spice-bg-pattern overflow-hidden"
     
     style={{
       backgroundImage: "url('/productsBg.png')",
@@ -50,7 +50,7 @@ export default function ProductsSection() {
     }}
     >
       {/* Decorative Spice Watermarks in Background */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-7xl mx-auto  relative z-10">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-14">
           <h2 className="font-fahkwang text-3xl sm:text-4xl font-bold tracking-tight">

@@ -10,8 +10,8 @@ export default function QualityProcessSection() {
   ];
 
   return (
-    <section className="py-16 sm:py-20 lg:py-24 bg-white overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="px-20 bg-white overflow-hidden pb-10">
+      <div className="max-w-7xl mx-auto  ">
         {/* Section Header */}
         <div className="text-center flex flex-col gap-3  mb-12 sm:mb-16">
           <h2 className="font-fahkwang text-3xl sm:text-4xl font-bold tracking-tight">

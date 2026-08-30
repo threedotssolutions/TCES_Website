@@ -42,7 +42,7 @@ They need to know where the product comes from, how it is handled, what they are
         </div>
 
         {/* 4 Feature Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-6 bg-[linear-gradient(to_bottom,transparent_0%,transparent_50%,#FD7001_50%,#FD7001_100%)] px-4 sm:px-6 lg:px-8 pb-15">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-6 bg-[linear-gradient(to_bottom,transparent_0%,transparent_50%,#FD7001_50%,#FD7001_100%)] px-20 pb-15">
           {features.map((feature, idx) => (
             <div
               key={idx}
